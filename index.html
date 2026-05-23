@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>SkillMC.pl - Najlepszy Serwer Survival</title>
+    <style>
+        body {
+            background-color: #0f0f13;
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            padding: 100px 20px;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('bg-minecraft.jpg');
+            background-size: cover;
+        }
+        h1 {
+            color: #00fbff;
+            font-size: 80px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin: 0;
+        }
+        .ip-box {
+            background: rgba(255,255,255,0.1);
+            display: inline-block;
+            padding: 15px 30px;
+            border-radius: 10px;
+            border: 2px solid #00fbff;
+            font-size: 24px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .ip-box:hover {
+            background: #00fbff;
+            color: black;
+        }
+        .discord-btn {
+            display: block;
+            margin: 20px auto;
+            color: #7289da;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>sᴋɪʟʟᴍᴄ</h1>
+        <p>ᴢᴀᴘʀᴀsᴢᴀᴍʏ ɴᴀ ɴᴀᴊʟᴇᴘsᴢᴀ ᴇᴅʏᴄᴊᴇ sᴜʀᴠɪᴠᴀʟ + sᴋɪʟʟs!</p>
+        <div class="ip-box" onclick="copyIP()">sᴋɪʟʟᴍᴄ.ᴘʟ</div>
+        <a href="TWÓJ_LINK_DO_DISCORDA" class="discord-btn">Dołącz do Discorda</a>
+    </div>
+
+    <script>
+        function copyIP() {
+            navigator.clipboard.writeText("skillmc.pl");
+            alert("Skopiowano IP: skillmc.pl");
+        }
+    </script>
+</body>
+</html>
